@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="col-6 p-5 colorbg text-white"
+  id="paddingMobile"
+  onClick={[Function]}
+  onKeyDown={[Function]}
+  role="button"
+  tabIndex={0}
+>
+  <div
+    className="spaceBetween"
+  >
+    <div>
+      <div>
+        <h2>
+          Test Country
+        </h2>
+      </div>
+      <div>
+        <span>
+          Capital: 
+        </span>
+        Test Capital
+      </div>
+      <div>
+        <span>
+          Population: 
+        </span>
+        1000000
+      </div>
+    </div>
+    <div>
+      <div
+        className="icon-container"
+      >
+        <img
+          alt="next"
+          src="next.png"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
