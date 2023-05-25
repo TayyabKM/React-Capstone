@@ -7,14 +7,18 @@ const initialState = {
   country: [],
 };
 
-export const formatCountries = (res) => res.data.map(({
-  cca3, name, capital, population,
-}) => ({
-  cca3,
-  name,
-  capital: Array.isArray(capital) ? capital[0] || '' : capital || '',
-  population,
-}));
+export const formatCountries = (res) => {
+  if (!res || !res.data || !Array.isArray(res.data)) {
+    return []; // Return an empty array or handle the error condition as appropriate
+  }
+
+  return res.data.map(({ cca3, name, capital, population }) => ({
+    cca3,
+    name,
+    capital: Array.isArray(capital) ? capital.join(', ') : capital,
+    population,
+  }));
+};
 
 export const getCountries = createAsyncThunk('get/countries', async () => {
   const res = await fetch(`${BackendUrl}/all`);
