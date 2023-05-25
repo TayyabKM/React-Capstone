@@ -1,0 +1,27 @@
+body,
+td {
+  margin: 0;
+  font-family: serif !important;
+  font-size: larger;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #4791ffd6 !important;
+  color: white;
+}
+
+.table tbody tr td {
+  border: none;
+  padding: 25px;
+  color: white !important;
+}
+
+.bgd {
+  background-color: #4791ffd6;
+}
+
+@media screen and (max-width: 600px) {
+  img {
+    width: 50%;
+  }
+}

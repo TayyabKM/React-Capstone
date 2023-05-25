@@ -1,16 +1,18 @@
+import { Routes, Route } from 'react-router-dom';
+import Navbar from './componenets/Navbar';
 import './App.css';
+import CountiesList from './componenets/countries/CountriesList';
+import DetailsList from './componenets/details/DetailsList';
 
 function App() {
   return (
-    <div className="App">
-      <p>
-        Edit
-        {' '}
-        <code>src/App.js</code>
-        {' '}
-        and save to reload.
-      </p>
-    </div>
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<CountiesList />} />
+        <Route path="/detail-list/:id" element={<DetailsList />} />
+      </Routes>
+    </>
   );
 }
 

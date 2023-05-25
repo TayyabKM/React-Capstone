@@ -1,0 +1,36 @@
+.row {
+  margin: auto !important;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+h2,
+h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.headingMain {
+  padding: 80px !important;
+  margin: auto;
+  font-size: 3.5rem;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: end;
+  padding-right: 30px;
+  padding-top: 20px;
+  border-radius: 8px;
+}

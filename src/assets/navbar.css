@@ -1,0 +1,89 @@
+.navbar {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #488cf2 !important;
+  color: white;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 700;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.navbar-nav .nav-link i {
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-item.active .nav-link {
+  color: white;
+  font-weight: 700;
+}
+
+.back-btn {
+  border: none;
+  background-color: transparent;
+}
+
+.white {
+  color: white;
+}
+
+.fa-microphone::before {
+  color: white;
+}
+
+.fa-cog::before,
+.fa-gear::before {
+  color: white;
+}
+
+@media (max-width: 767px) {
+  .navbar-brand {
+    position: absolute;
+    left: 0;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline !important;
+  }
+
+  .navbarIcons {
+    position: absolute;
+    right: 0;
+    padding-right: 10px;
+  }
+
+  .countryDetail {
+    padding-right: 35px;
+  }
+
+  .navIcon {
+    padding-left: 10px;
+  }
+
+  .navbar-nav {
+    display: block !important;
+  }
+
+  .navbar-collapse {
+    display: flex !important;
+    flex-direction: row;
+  }
+
+  ul {
+    overflow: hidden;
+  }
+
+  li {
+    display: inline-block;
+  }
+}

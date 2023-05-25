@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <div
+    className="row"
+    style={
+      Object {
+        "margin": "auto",
+      }
+    }
+  >
+    <div
+      className="container text-white"
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+        }
+      }
+    >
+      <h1
+        style={
+          Object {
+            "marginRight": "20px",
+            "padding": "20px",
+          }
+        }
+      >
+        Country Name
+      </h1>
+      <img
+        alt="Country flag"
+        src="https://example.com/flag.png"
+        style={
+          Object {
+            "marginLeft": "auto",
+            "padding": "20px",
+          }
+        }
+      />
+    </div>
+  </div>,
+  <table
+    className="table table-striped text-white"
+  >
+    <tbody>
+      <tr>
+        <td>
+          Official Name
+        </td>
+        <td>
+          Official Name
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Region
+        </td>
+        <td>
+          Region
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Population
+        </td>
+        <td>
+          100000
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Language
+        </td>
+        <td>
+          Language
+        </td>
+      </tr>
+      <tr>
+        <td>
+          United Nations Member
+        </td>
+        <td>
+          Yes
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Currencies
+        </td>
+        <td>
+          Currency
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Independent
+        </td>
+        <td>
+          Yes
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Area
+        </td>
+        <td>
+          2000
+          <span>
+              Square Kilometer
+          </span>
+        </td>
+      </tr>
+    </tbody>
+  </table>,
+]
+`;
