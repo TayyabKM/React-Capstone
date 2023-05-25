@@ -94,7 +94,8 @@ Clone this repository to your desired folder:
 
 ```sh
   cd your-folder
-  git clone https://github.com/TayyabKM/React-Capstone.git
+  git clone https://github.com/TayyabKM/React-Capstone.git 
+```
 
 ### Install
 
@@ -116,10 +117,10 @@ You can deploy this project using:
 
 ### Run Tests <a name="runtests"></a>
 
-- npm test
+- npm test 
 
 
-## 🚀 Live Demo <a name="live-demo"> </a>
+### 🚀 Live Demo <a name="live-demo"> </a>
 
 Live Link: [https://gregarious-kangaroo-2674e6.netlify.app/]
 
