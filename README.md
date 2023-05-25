@@ -123,6 +123,8 @@ You can deploy this project using:
 
 Live Link: [https://gregarious-kangaroo-2674e6.netlify.app/]
 
+Video Presentation: [https://drive.google.com/file/d/1tWykE6TNtCfMbMui1VnNPdx40eC-OJqh/view?usp=sharing]
+
 ## 👥 Authors <a name="authors"></a>
 
 👤 **TayyabKM**
