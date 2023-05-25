@@ -122,7 +122,7 @@ You can deploy this project using:
 
 ### 🚀 Live Demo <a name="live-demo"> </a>
 
-Live Link: [https://gregarious-kangaroo-2674e6.netlify.app/]
+Live Link: [(https://countries-details28.netlify.app/)]
 
 Video Presentation: [https://drive.google.com/file/d/1tWykE6TNtCfMbMui1VnNPdx40eC-OJqh/view?usp=sharing]
 
