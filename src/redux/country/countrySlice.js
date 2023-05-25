@@ -12,7 +12,9 @@ export const formatCountries = (res) => {
     return []; // Return an empty array or handle the error condition as appropriate
   }
 
-  return res.data.map(({ cca3, name, capital, population }) => ({
+  return res.data.map(({
+    cca3, name, capital, population,
+  }) => ({
     cca3,
     name,
     capital: Array.isArray(capital) ? capital.join(', ') : capital,
